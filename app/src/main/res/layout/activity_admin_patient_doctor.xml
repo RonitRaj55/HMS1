@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPatientDoctor"
+    android:background="@drawable/hms3">
+
+    <TextView
+        android:id="@+id/areyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Are You ?"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/adminbutton"
+        android:layout_width="355dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/areyou"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:padding="25dp"
+        android:text="ADMIN"
+        android:textSize="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/patientbutton"
+        android:layout_width="355dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/adminbutton"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:padding="25dp"
+        android:text="PATIENT"
+        android:textSize="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/doctorbutton"
+        android:layout_width="355dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/patientbutton"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:padding="25dp"
+        android:text="DOCTOR"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
